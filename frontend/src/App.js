@@ -27,7 +27,7 @@ function App() {
           <img src={navImage} />
         </a>
       </div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#2f5167"}}>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mr-auto">
             <li className="navbar-item">

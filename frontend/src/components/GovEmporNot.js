@@ -22,10 +22,10 @@ export class Book extends Component {
   calPay(e) {
     let total = this.state.total;
 
-    if (SOURCE === "Badulla" && DESTINATION === "COLOMBO") {
+    if (SOURCE === "Gambir" && DESTINATION === "Bandung") {
       this.setState({ total: NOOFTICKETS * 370 });
       sessionStorage.setItem(TOTALAMMOUNT, total);
-    } else if (SOURCE === "Badulla" && DESTINATION === "COLOMBO") {
+    } else if (SOURCE === "Gambir" && DESTINATION === "Bandung") {
       this.setState({ total: NOOFTICKETS * 50 });
       sessionStorage.setItem(TOTALAMMOUNT, total);
     }
