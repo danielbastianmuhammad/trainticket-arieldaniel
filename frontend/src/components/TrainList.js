@@ -48,13 +48,33 @@ class TrainList extends Component {
   render() {
     return (
       <div>
-        <h3> Trains </h3>
+        <h3> Kereta Api </h3>
         <table className="table table-striped" style={{ marginTop: 20 }}>
           <thead>
             <tr>
-              <th> Source </th>
-              <th> Destination </th>
-              <th> Price (IDR)</th>
+              <th> Asal </th>
+              <th> Tujuan </th>
+              <th> Harga (IDR)</th>
+            </tr>
+            <tr>
+              <td>Gambir</td>
+              <td>Bandung</td>
+              <td>Rp 100.000,-</td>
+            </tr>
+            <tr>
+              <td>Gambir</td>
+              <td>Yogyakarta</td>
+              <td>Rp 225.000,-</td>
+            </tr>
+            <tr>
+              <td>Gambir</td>
+              <td>Surabaya Gubeng</td>
+              <td>Rp 375.000,-</td>
+            </tr>
+            <tr>
+              <td>Gambir</td>
+              <td>Malang</td>
+              <td>Rp 470.000,-</td>
             </tr>
           </thead>
           <tbody>{this.trainList()}</tbody>

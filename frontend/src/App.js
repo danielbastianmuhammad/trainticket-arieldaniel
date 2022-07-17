@@ -81,7 +81,7 @@ function App() {
       </Switch>
       <div
         className="footer"
-        style={{ backgroundColor: "#313438", width: 1365, height: 60 }}
+        style={{ backgroundColor: "#2f5167", width: 1365, height: 60 }}
       >
         <center>
           {" "}
